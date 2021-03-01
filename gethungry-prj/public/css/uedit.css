@@ -1,0 +1,149 @@
+.btn {
+    width: 180px;
+    height: 50px;
+    color: white;
+    background-color: rgb(22, 102, 221);
+    margin-left: 272px;
+    font-size: 15px;
+}
+
+input[type="text"] {
+    font-size: 15px;
+}
+
+input[type="textarea"] {
+    font-size: 15px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgb(20, 83, 177);
+}
+
+label {
+    color: rgb(30, 31, 31);
+}
+
+#md {
+    align-items: center;
+    padding-left: 550px;
+    padding-top: 100px;
+}
+
+table,
+td {
+    padding: 10px;
+    font-size: 18px;
+}
+
+table {
+    margin-top: -12px;
+}
+
+form {
+    /* margin-left: 450px; */
+    margin-top: 50px;
+}
+
+#btn2 {
+    width: 100px;
+    height: 50px;
+    color: rgb(6, 66, 156);
+    background-color: transparent;
+    margin-left: 800px;
+    font-size: 15px;
+}
+
+#btn2:hover {
+    color: rgb(8, 49, 112);
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    padding-left: 250px;
+    padding-top: 0px;
+}
+
+.hello {
+    background-color: white;
+    height: 100px;
+    font-size: 10px;
+    color: rgba(54, 53, 53, 0.904);
+}
+
+.detail {
+    background-color: white;
+    height: 390px;
+    margin-top: 10px;
+}
+
+.name {
+    color: black;
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+.menus {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 6px;
+    font-size: 20px;
+}
+
+#m1:hover {
+    color: rgb(24, 24, 24);
+    background-color: rgb(201, 201, 201);
+}
+
+#m2:hover {
+    color: rgb(24, 24, 24);
+    background-color: rgb(201, 201, 201);
+}
+
+#m3:hover {
+    color: rgb(24, 24, 24);
+    background-color: rgb(201, 201, 201);
+}
+
+#m4:hover {
+    color: rgb(24, 24, 24);
+    background-color: rgb(201, 201, 201);
+}
+
+#m5:hover {
+    color: rgb(24, 24, 24);
+    background-color: rgb(201, 201, 201);
+}
+
+#m6:hover {
+    color: rgb(24, 24, 24);
+    background-color: rgb(201, 201, 201);
+}
+
+.menul {
+    text-align: center;
+    color: rgb(83, 83, 83);
+    width: 300px;
+}
+
+.leftside {
+    background-color: transparent;
+    height: 500px;
+    margin-top: 80px;
+}
+
+.rightside {
+    background-color: white;
+    height: 500px;
+    margin-top: 80px;
+}

@@ -1,0 +1,187 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    /* background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(mainpage.jpg) ; */
+    background-color: rgba(235, 233, 233, 0.651);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+    color: black;
+    font-size: 16px;
+}
+
+#home {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav_bar {
+    display: flex;
+    padding: 10px 120px;
+}
+
+.nav_logo img {
+    width: 100px;
+    margin-left: -70px;
+}
+
+.nav_links {
+    flex: 1;
+}
+
+.nav_links ul {
+    float: right;
+    display: inline;
+}
+
+.nav_links ul li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    padding: 8px 25px;
+    letter-spacing: 1px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.nav_links ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#log {
+    color: rgb(17, 17, 17);
+    border: rgb(8, 8, 8) solid 1px;
+}
+
+#log:hover {
+    color: rgb(104, 104, 104);
+    border: rgb(139, 139, 139) solid 1px;
+}
+
+#mlogo {
+    height: 70px;
+}
+
+.leftside {
+    background-color: transparent;
+    height: 500px;
+    margin-top: 80px;
+}
+
+.rightside {
+    background-color: white;
+    height: 500px;
+    margin-top: 80px;
+}
+
+.hello {
+    background-color: white;
+    height: 100px;
+    font-size: 10px;
+    color: rgba(54, 53, 53, 0.904);
+}
+
+.detail {
+    background-color: white;
+    height: 390px;
+    margin-top: 10px;
+}
+
+.name {
+    color: black;
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+.menus {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 6px;
+}
+
+#m1:hover {
+    color: rgb(24, 24, 24);
+    background-color: rgb(201, 201, 201);
+}
+
+#m2:hover {
+    color: rgb(24, 24, 24);
+    background-color: rgb(201, 201, 201);
+}
+
+#m3:hover {
+    color: rgb(24, 24, 24);
+    background-color: rgb(201, 201, 201);
+}
+
+#m4:hover {
+    color: rgb(24, 24, 24);
+    background-color: rgb(201, 201, 201);
+}
+
+#m5:hover {
+    color: rgb(24, 24, 24);
+    background-color: rgb(201, 201, 201);
+}
+
+#m6:hover {
+    color: rgb(24, 24, 24);
+    background-color: rgb(201, 201, 201);
+}
+
+.menul {
+    text-align: center;
+    color: rgb(83, 83, 83);
+    width: 300px;
+}
+
+#btnnn {
+    width: 240px;
+    color: white;
+    background-color: green;
+}
+
+#btnnn:hover {
+    color: white;
+    background-color: rgb(2, 87, 2);
+}
+
+label {
+    color: rgb(104, 104, 104);
+    padding-left: 50px;
+}
+
+#md {
+    align-items: center;
+    padding-left: 550px;
+    padding-top: 100px;
+}
+
+.ph {
+    padding-left: 180px;
+}
+
+.edit {
+    padding-left: 500px;
+}
+
+.edit:hover {
+    color: rgb(0, 0, 0);
+}

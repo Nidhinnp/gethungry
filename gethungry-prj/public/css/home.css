@@ -1,0 +1,221 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    /* background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(mainpage.jpg) ; */
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav_bar {
+    display: flex;
+    padding: 10px 120px;
+}
+
+.nav_logo img {
+    width: 100px;
+    margin-left: -70px;
+}
+
+.nav_links {
+    flex: 1;
+}
+
+.nav_links ul {
+    float: right;
+    display: inline;
+}
+
+.nav_links ul li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    padding: 8px 25px;
+    letter-spacing: 1px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.nav_links ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.home:hover {
+    color: rgb(180, 175, 175);
+}
+
+.log {
+    color: white;
+    border: white solid 1px;
+}
+
+.log:hover {
+    color: rgb(180, 175, 175);
+    border: rgb(180, 175, 175) solid 1px;
+}
+
+.btn {
+    float: right;
+    padding: 10px 20px;
+    border: 0;
+    background: rgb(247, 247, 67);
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: yellow;
+}
+
+.fcard {
+    background-color: white;
+    height: 300px;
+    width: 1300px;
+    margin-left: 15px;
+    margin-top: 100px;
+}
+
+.menus {
+    background-color: white;
+    height: 440px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border: 0.1px solid rgba(194, 193, 193, 0.425);
+}
+
+.items {
+    background-color: white;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.foot {
+    background-color: black;
+    width: 1300px;
+    margin-top: 0px;
+    margin-left: 18px;
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+.imgc {
+    height: 300px;
+    width: 1300px;
+}
+
+#menu {
+    font-size: 22px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.menul {
+    text-align: center;
+    color: rgb(83, 83, 83);
+}
+
+.ff {
+    margin-top: 0px;
+    padding-top: 50px;
+    font-size: 12px;
+    margin-left: 10px;
+    color: white;
+}
+
+.line {
+    background-color: white;
+    height: 1px;
+    width: 1200px;
+    margin-left: 40px;
+}
+
+#imgfg {
+    height: 40px;
+}
+
+#imga {
+    height: 40px;
+    margin: 10px;
+}
+
+#ft {
+    margin-left: 900px;
+}
+
+#m1:hover {
+    color: rgb(24, 24, 24);
+    background-color: rgb(201, 201, 201);
+}
+
+#m2:hover {
+    color: rgb(24, 24, 24);
+    background-color: rgb(201, 201, 201);
+}
+
+#m3:hover {
+    color: rgb(24, 24, 24);
+    background-color: rgb(201, 201, 201);
+}
+
+#m4:hover {
+    color: rgb(24, 24, 24);
+    background-color: rgb(201, 201, 201);
+}
+
+#m5:hover {
+    color: rgb(24, 24, 24);
+    background-color: rgb(201, 201, 201);
+}
+
+#m6:hover {
+    color: rgb(24, 24, 24);
+    background-color: rgb(201, 201, 201);
+}
+
+#mlogo {
+    height: 70px;
+}
+
+#titem tr td {
+    padding: 10px;
+}
+
+#titem tr td p {
+    font-size: 12px;
+}
+
+#titem tr td h5 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.food-card_price {
+    font-size: 28px;
+    font-weight: 500;
+    color: #F47A00;
+}
+
+.nn {
+    margin-top: 5px;
+}
